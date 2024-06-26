@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     old_kana (0.1.0)
+      romankana (~> 0.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -58,7 +59,7 @@ PLATFORMS
 DEPENDENCIES
   old_kana!
   rake (~> 13.0)
-  romankana
+  romankana (~> 0.2.1)
   rspec (~> 3.0)
   rubocop (~> 1.21)
 
